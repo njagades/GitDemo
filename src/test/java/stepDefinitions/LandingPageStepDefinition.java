@@ -33,6 +33,9 @@ public void user_is_on_green_cart_landing_page() {
 		System.out.println("muthu jagadesh");
 		System.out.println("amma");
 		System.out.println("amma");
+		System.out.println("muthu jagadesh");
+		System.out.println("muthu jagadesh");
+		System.out.println("muthu jagadesh");
 		Assert.assertTrue(landingPage.getTitleLandingPage().contains("GreenKart"));
 }
 
