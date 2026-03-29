@@ -1,0 +1,153 @@
+Rest API Testing (Automation) from Scratch-Rest Assured Java
+Course image
+49. API Contract download
+Play
+47. Introduction to OAuth 2.0 Client credentials Grant type
+16min
+Play
+48. Practial example on OAuth 2.0 with its contract details for testing
+5min
+Start
+49. API Contract download
+1min
+Play
+50. Postman testing for the OAuth related API's and generating response
+8min
+Start
+51. Code download
+1min
+Play
+52. Rest Assured automation script for OAuth end to end API's test
+14min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learning reminders
+Set up push notifications or calendar events to stay on track for your learning goals.
+
+Get the app
+About us
+Help and Support
+Terms
+Privacy policy
+Sitemap
+Accessibility statement
+© 2026 Udemy, Inc.
+49. API Contract download
+API Contract download
+******************************************************************
+
+Authorization Server EndPoint:
+
+https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+
+
+
+HTTP Method : POST
+
+
+
+Form parameters :
+
+
+
+client_id:
+
+692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+
+client_secret:  erZOWM9g3UtwNRj340YYaK_W
+
+grant_type:   client_credentials
+
+scope:  trust
+
+******************************************************************
+
+
+
+GetCourseDetails EndPoint (Secured by OAuth) :
+
+https://rahulshettyacademy.com/oauthapi/getCourseDetails
+
+
+
+HTTP Method : GET
+
+Query Parameter : access_token
